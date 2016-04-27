@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Informacje_Autorzy"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Autorzy:" FontSize="25" Height="80" HorizontalAlignment="Left" Margin="120,50,0,0" Foreground="White" VerticalAlignment="Top"/>
+        <Label Content="Grzegorz Jasiński" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,130,0,0" Foreground="White"/>
+        <Label Content="Marek Lewiński" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,170,0,0" Foreground="White"/>
+        <Label Content="Grzegorz Wiśniowski" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,210,0,0" Foreground="White"/>
+    </Grid>
+</UserControl>

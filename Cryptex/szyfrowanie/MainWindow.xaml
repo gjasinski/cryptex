@@ -1,0 +1,37 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Szyfrowanie.MainWindow"
+        Title="Cryptex" x:Name="MainWin" Height="655" Width="1045" ResizeMode="CanMinimize" SnapsToDevicePixels="True" Background="Black" SizeToContent="WidthAndHeight" BorderThickness="0" WindowStyle="ThreeDBorderWindow" Icon="Style/cryptex_ico.ico">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,10,0.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="140*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btHome" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Start" HorizontalAlignment="Left" Margin="7,50,0,0" VerticalAlignment="Top" Width="223" Height="45" Click="btHome_Click" BorderBrush="{x:Null}" Focusable="False"/>
+
+        <Button x:Name="btHelp" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Pomoc" HorizontalAlignment="Left" Margin="7,105,0,0" VerticalAlignment="Top" Width="223" Height="45" FontFamily="Sansation" BorderBrush="{x:Null}" Click="btHelp_Click" Focusable="False"/>
+
+        <Button x:Name="btKeys" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Klucze" HorizontalAlignment="Left" Margin="7,215,0,0" VerticalAlignment="Top" Width="223" Height="45" BorderBrush="{x:Null}" Click="btKeys_Click" Focusable="False"/>
+
+        <Button x:Name="btDefinitions" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Definicje" HorizontalAlignment="Left" Margin="7,160,0,0" VerticalAlignment="Top" Width="222" Height="45" BorderBrush="{x:Null}" Click="btDefinitions_Click" Focusable="False"/>
+
+        <Button x:Name="btCezar_Tab" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Szyfr Cezara" HorizontalAlignment="Left" Margin="7,270,0,0" VerticalAlignment="Top" Width="223" Height="45" Click="btCezar_Tab_Click" BorderBrush="{x:Null}" Focusable="False"/>
+
+        <Button x:Name="btVige_Tab" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Szyfr Vigenère'a" HorizontalAlignment="Left" Margin="7,325,0,0" VerticalAlignment="Top" Width="223" Height="45" BorderBrush="{x:Null}" Click="btVige_Tab_Click" Focusable="False"/>
+
+        <Button x:Name="btEnigma_Tab" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Enigma" HorizontalAlignment="Left" Margin="7,380,0,0" VerticalAlignment="Top" Width="223" Height="45" BorderBrush="{x:Null}" Click="btEnigma_Tab_Click" Focusable="False"/>
+
+        <Button x:Name="btKeygen" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Generator Kluczy" HorizontalAlignment="Left" Margin="7,435,0,0" VerticalAlignment="Top" Width="223" Height="45" Click="btKeygen_Click" BorderBrush="{x:Null}" Focusable="False"/>
+
+        <Button x:Name="btInfo" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Informacje" HorizontalAlignment="Left" Margin="7,490,0,0" VerticalAlignment="Top" Width="223" Height="45" BorderBrush="{x:Null}" Click="btInfo_Click" Focusable="False"/>
+        <Image HorizontalAlignment="Left" Height="45" Margin="10,5,0,0" VerticalAlignment="Top" Width="915" RenderTransformOrigin="0.524,0.528" Grid.ColumnSpan="2" Source="Images/baner.png"/>
+        <Grid x:Name="ContentGrid" Grid.Column="1" HorizontalAlignment="Left" Height="580" Margin="10,60,0,0" VerticalAlignment="Top" Width="746">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/bg.png"/>
+            </Grid.Background>
+        </Grid>
+        <Button x:Name="btRSA" Style="{StaticResource MenuButton}" Grid.Column="0" Content="RSA" HorizontalAlignment="Left" Margin="7,545,0,0" VerticalAlignment="Top" Width="223" Height="45" BorderBrush="{x:Null}" Click="btRSA_Click" Focusable="False"/>
+        <Button x:Name="Quiz_Copy" Style="{StaticResource MenuButton}" Grid.Column="0" Content="Quiz" HorizontalAlignment="Left" Margin="7,595,0,0" VerticalAlignment="Top" Width="223" Height="45" BorderBrush="{x:Null}" Click="btQuiz_Click" Focusable="False"/>
+    </Grid>
+</Window>

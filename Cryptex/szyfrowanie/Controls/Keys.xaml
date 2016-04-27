@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Keys"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="528" d:DesignWidth="746">
+    <Grid>
+        <Label Content="Klucze" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,10,0,0" Foreground="White"/>
+        <Label Content="    Klucz - jest to informacja umożliwiająca wykonywanie pewnej czynności" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,45,0,0" Foreground="White"/>
+        <Label Content="    kryptograficznej szyfrowania, deszyfrowania, podpisywania, weryfikacji " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,70,0,0" Foreground="White"/>
+        <Label Content="    podpisu itp." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,95,0,0" Foreground="White"/>
+        <Label Content="    Generator kluczy (z ang. keygenerator, keymaker lub keygen) - mały program" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,135,0,0" Foreground="White"/>
+        <Label Content="    komputerowy generujący klucze rejestracyjne do określonego programu" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,160,0,0" Foreground="White"/>
+        <Label Content="    dla dowolnych danych." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,190,0,0" Foreground="White"/>
+        <Label Content="Bezwarunkowe bezpieczeństwo:" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,235,0,0" Foreground="White"/>
+        <Label Content="    Niektóre szyfry np. Viegère'a mogą być bezwarunkowo bezpiecznymi jeżeli" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,270,0,0" Foreground="White"/>
+        <Label Content="    klucz spełnia poniższe warunki:" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,295,0,0" Foreground="White"/>
+        <Label Content="        -klucz użyty do szyfrowania wiadomości musi byc dłuższy lub równy" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,320,0,0" Foreground="White"/>
+        <Label Content="        długości szyfrowanej wiadomości" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,345,0,0" Foreground="White"/>
+        <Label Content="        -klucz musi byc wygenerowany w sposób całkowicie losowy" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,365,0,0" Foreground="White"/>
+        <Label Content="        -klucz nie może zostać użyty do zaszyfrowania wiecej niż jednej wiadomości." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,395,0,0" Foreground="White" Background="Transparent"/>
+
+    </Grid>
+</UserControl>

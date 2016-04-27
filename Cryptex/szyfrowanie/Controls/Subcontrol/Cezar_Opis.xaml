@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Cezar_Opis"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Szyfr Cezara" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,10,0,0" Foreground="White"/>
+        <Label Content="Szyfr ten jest jedną z najprostszych technik szyfrowania. Nazwa szyfru poczhodzi" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,90,0,0" Foreground="White"/>
+        <Label Content="od Juliusza Cezara. Szyfrował on prywatną korespondencję do swoich przyjachół, zapisaną" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,115,0,0" Foreground="White"/>
+        <Label Content="zapisaną po łacinie, używając szyfru przesuwającego z kluczem 3." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,140,0,0" Foreground="White"/>
+        <Label Content="" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,115,0,0" Foreground="White"/>
+        <Label Content="Istnieją 2 rodzaje szyfru Cezara:" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,220,0,0" Foreground="White"/>
+        <Label Content="    -klasyczny - do szyfrowania i deszyfrowania wiadomości używamy klucza 3" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,245,0,0" Foreground="White"/>
+        <Label Content="    -ogólny - używamy dowolnego klucza liczbowego." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,270,0,0" Foreground="White"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Pomoc_Enigma"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Pomoc - Enigma" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" Foreground="White"/>
+        <Label Content="Bęben odwracający: należy wybrać z rozwijanej listy spośród 4 możliwości." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Foreground="White"/>
+        <Label Content="Wirniki: należy wybrać w taki sposób aby się nie powtarzały. Każdy wirnik" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,65,0,0" Foreground="White"/>
+        <Label Content="można wybrać spośród 5 możliwości." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,90,0,0" Foreground="White"/>
+        <Label Content="Klucz: jest to początkowe ustawienie każdego wirnika.Klucz można ustawić za" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,115,0,0" Foreground="White"/>
+        <Label Content="pomocą suwaków od A do Z. Można także wylosowac klucz naciskając przycisk" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,140,0,0" Foreground="White"/>
+        <Label Content="'Losuj klucz'." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,165,0,0" Foreground="White"/>
+        <Label Content="W ramce należy wpisać tekst do zaszyfrowania lub odszyfrowania, tekst ten może" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,190,0,0" Foreground="White"/>
+        <Label Content="składać się z liter od A do Z, bez znaków diakrytycznych. Specyfikacja enigmy " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,215,0,0" Foreground="White"/>
+        <Label Content="zakładała tylko wielkie litery oraz spację wyrażaną znakiem 'X'. Dlatego symulator" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,240,0,0" Foreground="White"/>
+        <Label Content="małe litery zamienia na wielkie, a spacja automatycznie jest zamieniana na 'X'. " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,265,0,0" Foreground="White"/>
+        <Label Content="Polskie znaki diakrytyczne są zamieniane na ich proste odpowiedniki," FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,290,0,0" Foreground="White"/>
+        <Label Content="a inne znaki specjalne są pomijane." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,315,0,0" Foreground="White"/>
+        <Label Content="Szyfr enigmy jest szyfrem symetrycznym co oznacza ,że podwójne zaszyforwanie" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,340,0,0" Foreground="White"/>
+        <Label Content="tekstu tym samym kluczem spowoduje odszyfrwanie go. Aby zaszyfrować lub " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,365,0,0" Foreground="White"/>
+        <Label Content="odszyfrować tekst należy nacisnąć przycisk 'Szyfruj'. Przycisk 'Usun X' służy" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,390,0,0" Foreground="White"/>
+        <Label Content="do zastąpienia znaków 'X' spacją, tak aby odszyfrowany tekst był czytelniejszy." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,415,0,0" Foreground="White"/>
+
+    </Grid>
+</UserControl>

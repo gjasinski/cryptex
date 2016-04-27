@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.cKeygen_Opis"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             d:DesignHeight="468" d:DesignWidth="726">
+             <Grid>
+        <Label Content="Prametry generatora:" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" Foreground="White"/>
+                <Label Content="-długość klucza wyrażona w bitach" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Foreground="White"/>
+                <Label Content="-liczba rund generatora - zwiększa losowość klucza poprzez wykonanie większej " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,65,0,0" Foreground="White"/>
+                <Label Content="    ilości przekształceń wirników" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,90,0,0" Foreground="White"/>
+                <Label Content="-ilość wirników - większa losowość klucza, możliwe uzyskanie dluższych kluczy " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,115,0,0" Foreground="White"/>
+                <Label Content="-długość wirnika - rozmiar każdego wirnika, zwiększa losowość oraz możliwą" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,140,0,0" Foreground="White"/>
+                <Label Content="    długość klucza" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,165,0,0" Foreground="White"/>
+                <Label Content="-złożoność wirnika - wartość używana podczas tworzenia wirników, zwiększa " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,190,0,0" Foreground="White"/>
+                <Label Content="    losowość wirników w momencie ich tworzenia." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,215,0,0" Foreground="White"/>
+              </Grid>
+</UserControl>

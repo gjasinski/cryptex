@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Pomoc_Keygen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Pomoc - Generator Kluczy" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" Foreground="White"/>
+        <Label Content="Długość klucza - należy podać liczbę całkowitą większą od zera," FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Foreground="White"/>
+        <Label Content="    długość jest wyrażana w bitach" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,65,0,0" Foreground="White"/>
+        <Label Content="Ilość rund generatora - należy podać liczbę całkowitą większą od zera" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,90,0,0" Foreground="White"/>
+        <Label Content="Parametry generatora:" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,115,0,0" Foreground="White"/>
+        <Label Content="    -ilość wirników - należy ustawić za pomocą suwaka" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,140,0,0" Foreground="White"/>
+        <Label Content="    -długość wirników - należy ustwaić za pomocą suwaka" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,165,0,0" Foreground="White"/>
+        <Label Content="    -złożoność wirnika - należy ustawić za pomocą suwaka" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,190,0,0" Foreground="White"/>
+        <Label Content="Ilość wirników, długość wirników oraz złożoność wirników muszą być liczbami" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,215,0,0" Foreground="White"/>
+        <Label Content="większymi od zera." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,240,0,0" Foreground="White"/>
+        <Label Content="Aby wygenerować klucz należy nacisnąć przycisk 'Generuj'" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,265,0,0" Foreground="White"/>
+        <Label Content="Po wygenerowaniu można skopiować klucz poprzez naciśnięcie przycisku 'Kopiuj', " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,290,0,0" Foreground="White"/>
+        <Label Content="który znajduje po prawej stronie wygenerowanego klucza." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,315,0,0" Foreground="White"/>
+    </Grid>
+</UserControl>

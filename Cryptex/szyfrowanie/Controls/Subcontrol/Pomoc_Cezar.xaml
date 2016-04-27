@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Pomoc_Cezar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Pomoc - Szyfr Cezara" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" Foreground="White"/>
+        <Label Content="Tekst do zaszyfrowania (plaintext): w tym polu podajemy tekst do zaszyfrowania." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Foreground="White"/>
+        <Label Content="Tekst może się składać z wielkich i małych liter, oraz cyfr. Bez znaków specjalnych" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,65,0,0" Foreground="White"/>
+        <Label Content="oraz polskich znaków diakrytycznych." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,90,0,0" Foreground="White"/>
+        <Label Content="Klucz: jest liczba całkowita z zakresu 0-99. Aby zaszyfrować tekst należy nacisnąć" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,115,0,0" Foreground="White"/>
+        <Label Content="przycisk 'SZYFRUJ'" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,140,0,0" Foreground="White"/>
+        <Label Content="Szyfrogram: jest to tekst zaszyfrowany. Szyfrogram może się składać z wielkich" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,200,0,0" Foreground="White"/>
+        <Label Content="i małych liter, oraz cyfr." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,225,0,0" Foreground="White"/>
+        <Label Content="Bez znaków specjalnych oraz polskich znaków diakrytycznych" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,250,0,0" Foreground="White"/>
+        <Label Content="Klucz: jest liczba całkowita z zakresu 0-99. Aby poprawnie odszyfrować należy " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,275,0,0" Foreground="White"/>
+        <Label Content="odszyfrowaywać tym samym kluczem którym tekst został zaszyfrowany." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,300,0,0" Foreground="White"/>
+        <Label Content="Aby odszyfrować należy nacisnąć przycisk 'ODSZYFRUJ'" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,325,0,0" Foreground="White"/>
+        <Label Content="Tablica dostępnych znaków: " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,375,0,0" Foreground="White"/>
+        <Label Content="'ABCDEFGHIJKLMNOPQRSTUWXYZabcdefghijklmnopqrstuwxyz1234567890 '." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,400,0,0" Foreground="White"/>
+
+    </Grid>
+</UserControl>

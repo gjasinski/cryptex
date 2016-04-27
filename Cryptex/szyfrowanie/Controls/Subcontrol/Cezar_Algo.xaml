@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Cezar_Algo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <MediaElement HorizontalAlignment="Left" Height="458" VerticalAlignment="Top" Width="716" Source="Media/cezar.wmv" ClipToBounds="True"/>
+    </Grid>
+</UserControl>

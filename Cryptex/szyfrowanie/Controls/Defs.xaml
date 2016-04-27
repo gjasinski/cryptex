@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Defs"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="528" d:DesignWidth="746">
+    <Grid>
+        <Label Content="Definicje" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10,0,0" Foreground="White"/>
+        <Label Content="Szyfrogram (inaczej kryptogram) - jest to zaszyfrowana wiadomość." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Foreground="White"/>
+        <Label Content="Tekst jawny (inaczej tekst otwarty) - jest to wiadomość, która nie została " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,80,0,0" Foreground="White"/>
+        <Label Content="jeszcze zaszyfrowana lub została odszyfrowana" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,105,0,0" Foreground="White"/>
+        <Label Content="Klucz  jest to informacja umożliwiająca wykonywanie pewnej czynności " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,145,0,0" Foreground="White"/>
+        <Label Content="kryptograficznej - szyfrowania, deszyfrowania, podpisywania, weryfikacji" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,170,0,0" Foreground="White"/>
+        <Label Content="podpisu itp." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,195,0,0" Foreground="White"/>
+        <Label Content="Generator kluczy (z ang. key generator, keymaker lub keygen) - mały program" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,235,0,0" Foreground="White"/>
+        <Label Content="komputerowy generujący klucze rejetracyjne do określonego programu dla " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,260,0,0" Foreground="White"/>
+        <Label Content="dowolnych danych rejestracyjnych." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,285,0,0" Foreground="White"/>
+        <Label Content="Algorytm szyfrujący - jest to funkcja matemetyczna wykorzystywana do" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,325,0,0" Foreground="White"/>
+        <Label Content="szyfrowania tekstu jawnego." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,350,0,0" Foreground="White"/>
+        <Label Content="Algorytm deszyfrujący - jest to funkcja matematyczna wykorzystywana do" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,390,0,0" Foreground="White"/>
+        <Label Content="deszyfrowania tekstu jawnego." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,415,0,0" Foreground="White"/>
+    </Grid>
+</UserControl>

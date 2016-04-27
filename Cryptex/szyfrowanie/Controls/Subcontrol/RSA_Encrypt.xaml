@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.RSA_Encrypt"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Klucz n: " HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
+        <Label Content="Klucz e:" HorizontalAlignment="Left" Margin="370,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
+        <TextBox x:Name="txt_Keyn" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="120,20,0,0" FontSize="20" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="txt_Keye" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="470,20,0,0" FontSize="20" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="txt_Plain" HorizontalAlignment="Left" Height="150" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="550" Margin="120,80,0,0" FontSize="13" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="txt_Ciphered" HorizontalAlignment="Left" Height="138" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="550" Margin="120,320,0,0" FontSize="13" Background="{x:Null}" Foreground="White"/>
+        <Button x:Name="bt_encrypt" Content="Szyfruj" HorizontalAlignment="Left" Height="33" Margin="120,259,0,0" VerticalAlignment="Top" Width="110" Background="Black" Foreground="#FF67C9FF" FontSize="20" FontWeight="Bold"  BorderBrush="{x:Null}" Click="bt_encrypt_Click"/>
+        <Button x:Name="bt_save" Content="Zapisz" HorizontalAlignment="Left" Height="33" Margin="560,259,0,0" VerticalAlignment="Top" Width="110" Background="Black" Foreground="#FF67C9FF" FontSize="20" FontWeight="Bold"  BorderBrush="{x:Null}" Click="bt_save_Click"/>
+    </Grid>
+</UserControl>

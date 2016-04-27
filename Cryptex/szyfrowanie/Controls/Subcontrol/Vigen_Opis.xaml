@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Szyfrowanie.Controls.Subcontrol.Vigen_Opis"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="468" d:DesignWidth="726">
+    <Grid>
+        <Label Content="Szyfr Vigenère'a" FontSize="25" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" Foreground="White"/>
+        <Label Content="Szyfr ten jest jednym z klasycznych algorytmów szyfrujących. Należy on do grupy" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,40,0,0" Foreground="White"/>
+        <Label Content="tzw. polialfabetycznych szyfrów podstawieniowych. Został on opisany przez" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,65,0,0" Foreground="White"/>
+        <Label Content="Giovana Batista Belaso w 1553 roku." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,90,0,0" Foreground="White"/>
+        <Label Content="Szyfr Vigenère'a może być tzw. szyfrem bezwarunkowo bezpiecznym przy" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,150,0,0" Foreground="White"/>
+        <Label Content="spełnieniu założeń klucza:" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,175,0,0" Foreground="White"/>
+        <Label Content="    -długość klcza musi być większa lub równa długości wiadomości jawnej" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,200,0,0" Foreground="White"/>
+        <Label Content="    -klucz musi być jednorazowy. Oznacz to, że klucz nie może zostać użyty do " FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,225,0,0" Foreground="White"/>
+        <Label Content="    zaszyfrowania więcej niż 1 wiadomości" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,250,0,0" Foreground="White"/>
+        <Label Content="    -klucz musi być całkowicie losowy - znając algorytm generujący nie można" FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,275,0,0" Foreground="White"/>
+        <Label Content="    odtworzyć klucza." FontSize="20" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,300,0,0" Foreground="White"/>
+
+    </Grid>
+</UserControl>
